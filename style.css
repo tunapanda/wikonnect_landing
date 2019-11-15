@@ -76,6 +76,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -181,10 +194,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-sm{
-	margin-top:10px;
-	margin-bottom:5px;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -203,26 +212,40 @@ button{
 	outline: none!important;
 }
 
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
 
 /* = Icons
 -------------------------------------------------------------- */
 .icon-md{
 	font-size:30px!important;
 }
+.icon-lg{
+	font-size:60px!important;
+}
+.icon-round{
+	margin:0 auto;
+	border:2px solid transparent;
+	border-radius: 50%;
+	padding: 32px 30px 26px 30px;
+	min-width:80px;
+}
+.icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
+	min-width: 92px;
+}
+.icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
+	min-width: 122px;
+}
+.icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
+	min-width: 162px;
+}
 
 
-
-
-/* = Cards
+/* = Text & Icon Styles
 -------------------------------------------------------------- */
+.pressed-t{
+	text-shadow:0 1px 0 #FFF;
+}
+
+
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -278,7 +301,38 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:transparent;
 }
 .h1-style{
-	font-size:43px;
+	font-size:90px;
+}
+.btn-margin-right{
+	margin-right:-108px;
+	margin-left:90px;
+	width:20%;
+}
+.btn-margin-left{
+	margin-left:42px;
+	margin-right:-45px;
+	width:20%;
+}
+.btn-style{
+	width:20%;
+	margin-left:83px;
+}
+.h6-margin-left{
+	margin-left:82px;
+	width:73.85%;
+}
+.h1-bloc-1-style{
+	font-size:60px;
+	width:100%;
+}
+.h6-margin-top{
+	margin-top:28px;
+	font-size:20px;
+	width:91.54%;
+	margin-left:60px;
+}
+.img-margin-top{
+	margin-top:11px;
 }
 
 /* = Colour
@@ -307,6 +361,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white{
 	color:#FFFFFF!important;
 }
+.tc-dark-slate-blue{
+	color:#504193!important;
+}
+.tc-taupe-gray{
+	color:#84848A!important;
+}
+.tc-slate-gray{
+	color:#6E699E!important;
+}
 
 /* Button colour styles */
 
@@ -327,10 +390,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:rgba(0,0,0,.5)!important;
 }
 
+/* Icon colour styles */
+
+.icon-emerald{
+	color:#60B378!important;
+	border-color:#60B378!important;
+}
+.icon-sandy-brown{
+	color:#EB995E!important;
+	border-color:#EB995E!important;
+}
+.icon-slate-gray{
+	color:#6E699E!important;
+	border-color:#6E699E!important;
+}
+
 /* Bloc image backgrounds */
 
 .bg-maa{
 	background-image:url("img/maa.png");
+}
+.bg-Group-2029{
+	background-image:url("img/Group%2029.png");
 }
 
 
