@@ -314,16 +314,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:20%;
 }
 .btn-style{
-	width:20%;
+	width:65.48%;
 	margin-left:83px;
+	font-weight:bold;
 }
 .h6-margin-left{
 	margin-left:82px;
 	width:73.85%;
 }
 .h1-bloc-1-style{
-	font-size:60px;
 	width:100%;
+	font-size:40px;
 }
 .h6-margin-top{
 	margin-top:28px;
@@ -334,12 +335,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-margin-top{
 	margin-top:11px;
 }
+.img-style{
+	width:345px;
+}
+.img-brcklo-style{
+	width:189px;
+}
+.img-5-style{
+	width:276px;
+}
+.btn-bloc-0-style{
+	font-weight:bold;
+	margin-left:6px;
+}
+.btn-3-style{
+	font-weight:bold;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
+.bgc-slate-gray{
+	background-color:#6E699E;
+}
 .bgc-beige{
 	background-color:#F8F0DD;
 }
@@ -388,6 +408,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-peach-puff:hover{
 	background:#c7ae9b!important;
 	color:rgba(0,0,0,.5)!important;
+}
+
+/* Link colour styles */
+
+.ltc-dark-slate-blue{
+	color:#504193!important;
+}
+.ltc-dark-slate-blue:hover{
+	color:#403476!important;
+}
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
 }
 
 /* Icon colour styles */
@@ -484,6 +519,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h6-style{
 		width:90.25%;
+	}
+	.btn-style{
+		width:58.72%;
+	}
+	.btn-bloc-0-style{
+		width:100%;
 	}
 	
 }
