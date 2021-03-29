@@ -33,22 +33,32 @@
 
 <body>
   <div class="page-container">
-    <div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-top">
+
+    <div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-0">
       <div class="container bloc-sm">
         <div class="row">
           <div class="col">
-            <nav class="navbar navbar-light row navbar-expand" role="navigation">
+            <nav class="navbar navbar-light row navbar-expand-md" role="navigation">
               <a class="navbar-brand ltc-dark-slate-blue" href="index.html"><img src="img/lazyload-ph.png"
                   data-src="img/Group%2016.svg" alt="logo" class="lazyload" /></a>
-              <button id="nav-toggle" type="button" class="ml-auto ui-navbar-toggler navbar-toggler border-0 p-0"
-                data-toggle="collapse" data-target=".navbar-43408" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+
+              <div class="collapse navbar-collapse navbar-43408">
+                <ul class="site-navigation nav navbar-nav ml-auto btn">
+                  <div class="text-light">
+                    <a href="https://emberjs.com/">
+                      <img src="./img/ember-tomster-lockup-4c.svg" height="90px" />
+                      <br>
+                      <i>built the ember way</i>
+                  </div>
+                  </a>
+                </ul>
+              </div>
             </nav>
           </div>
         </div>
       </div>
     </div>
+
     <div class="bloc b-parallax bgc-dark-slate-blue tc-white" id="bloc-0">
       <div class="container bloc-sm">
         <div class="row">
@@ -70,6 +80,9 @@
                       margin-left="1em" target="_blank" rel="noopener">Teach</a>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2mRkEuogbW707Jf5bKp2I3U2xI8eCdINejPOhbxNy7Qke9g/viewform"
                       rel="noopener" class="btn btn-lg btn-sandstorm btn-build-style" target="_blank">Build</a>
+                    <a type="button" href="https://tunapanda.org/contribute/"
+                      class="btn btn-secondary btn-lg text-primary"> &#9829;
+                    </a>
                   </div>
                 </div>
               </div>
@@ -78,11 +91,14 @@
         </div>
       </div>
     </div>
+
+
     <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span
         class="fa fa-chevron-up"></span></a>
+
     <div class="bloc l-bloc" id="bloc-1">
       <div class="container bloc-sm">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class="col-sm-12 col-md-4">
             <h3 class="mg-md h1-bloc-1-style tc-dark-slate-blue">
               <strong>What is Wikonnect?</strong>
@@ -97,18 +113,53 @@
           </div>
         </div>
       </div>
-      <!-- bloc-1 END -->
+    </div>
 
-      <!-- bloc-ember -->
-      <div class="bloc " id="bloc-1">
-        <div class="container bloc-sm">
-          <div class=" row d-flex justify-content-center">
-            <div> <img src="./img/ember-tomster-lockup-4c.svg" height="100px" alt="">
-              <br>
-              <i>built with ember</i>
+
+
+
+
+
+    <div class="bloc bgc-beige tc-taupe-gray l-bloc" id="bloc-2">
+      <div class="container bloc-lg">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="text-center">
+              <span class="fa fa-hourglass-o icon-emerald icon-lg pressed-t icon-round"></span>
+              <h3 class="mg-md tc-slate-gray">
+                Learning
+              </h3>
+              <p>
+                Technology is changing the world and education needs to adapt. Wikonnect lets you learn valuable skills
+                at your own pace, anytime, anywhere.<br>
+              </p>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-4">
+            <div class="text-center">
+              <span class="fa fa-paper-plane-o icon-round icon-lg icon-sandy-brown"></span>
+              <h3 class="mg-md tc-slate-gray">
+                Content
+              </h3>
+              <p>
+                Often, our most important teachers aren&rsquo;t from school. They are our parents, family, friends,
+                colleagues, bosses, and others. Wikonnect enables us to share knowledge with our communities online,
+                extending the reach of our most valuable teaching relationships into the digital world.<br>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="text-center">
+              <span class="fa fa-star icon-round icon-lg icon-slate-gray"></span>
+              <h3 class="mg-md tc-slate-gray">
+                Open Source
+              </h3>
+              <p>
+                They say the best things in life are free. We believe this should apply to great software too. You can
+                help us build a learning community for all people..<br>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
